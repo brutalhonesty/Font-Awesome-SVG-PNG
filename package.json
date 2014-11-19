@@ -3,19 +3,22 @@
   "version": "1.1.1",
   "description": "Font Awesome split to individual SVG and PNG files of different sizes along with Node.JS based generator",
   "main": "index.js",
-  "author": ["Damian Kaczmarek <damian@codecharm.co.uk>", "Adam Schodde <sparky1010+github@gmail.com>"],
+  "author": [
+    "Damian Kaczmarek <damian@codecharm.co.uk>",
+    "Adam Schodde <sparky1010+github@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeCharmLtd/Font-Awesome-SVG-PNG"
   },
   "license": "MIT",
   "dependencies": {
-    "request": "~2.33.0",
-    "js-yaml": "~3.0.1",
     "async": "~0.2.10",
-    "graceful-fs": "~2.0.1",
-    "optimist": "~0.6.0",
     "extend": "~1.2.1",
+    "graceful-fs": "~2.0.1",
+    "js-yaml": "~3.0.1",
+    "optimist": "~0.6.0",
+    "request": "~2.33.0",
     "svgo": "0.4.4"
   }
 }
