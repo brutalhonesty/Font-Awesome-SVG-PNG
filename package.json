@@ -7,6 +7,9 @@
     "Damian Kaczmarek <damian@codecharm.co.uk>",
     "Adam Schodde <sparky1010+github@gmail.com>"
   ],
+  "scripts": {
+    "preinstall": "git submodule update -i -r"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeCharmLtd/Font-Awesome-SVG-PNG"
