@@ -1,3 +1,6 @@
 [submodule "Font-Awesome-SVG-PNG-Generated"]
 	path = Font-Awesome-SVG-PNG-Generated
 	url = git@github.com:brutalhonesty/Font-Awesome-SVG-PNG-Generated.git
+[submodule "Font-Awesome"]
+	path = Font-Awesome
+	url = git@github.com:FortAwesome/Font-Awesome.git
