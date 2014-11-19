@@ -44,8 +44,8 @@ function mkdir(dir) {
 
 exports.init = function(options, cb) {
   var _self = this;
-  var iconsYaml = fs.readFileSync(pathModule.join(pathModule.resolve(), 'Font-Awesome/src/icons.yml'), {encoding: 'utf8'});
-  var fontData = fs.readFileSync(pathModule.join(pathModule.resolve(), 'Font-Awesome/fonts/fontawesome-webfont.svg'), {encoding: 'utf8'});
+  var iconsYaml = fs.readFileSync(pathModule.join(__dirname, 'Font-Awesome/src/icons.yml'), {encoding: 'utf8'});
+  var fontData = fs.readFileSync(pathModule.join(__dirname, 'Font-Awesome/fonts/fontawesome-webfont.svg'), {encoding: 'utf8'});
   var icons = yaml.safeLoad(iconsYaml).icons;
   icons.forEach(function(icon) {
     code2name[icon.unicode] = icon.id;
